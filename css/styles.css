@@ -1,0 +1,1102 @@
+
+body{
+  margin: 0px;
+  /* padding: 160px 0 160px 0; */
+
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  position: fixed;
+  background: white;
+  z-index: 30;
+}
+
+header img{
+  width: 250px;
+}
+
+header img:hover {
+  opacity: 0.7;
+  transition: 1.0s;
+}
+
+.headerindex{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header ul{
+  list-style: none;
+  width: 350px;
+  margin: 20px auto 30px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul li a{
+  font-family: Verdana, sans-serif;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #404040;
+  text-decoration: none;
+  padding-left:8px;
+  padding-right: 8px;
+}
+
+header ul li span{
+  font-family: Verdana, sans-serif;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #404040;
+  /* text-decoration: none; */
+
+}
+
+header ul li a:hover{
+  opacity: 0.7;
+  color: #169FFA;
+  transition: 1.0s;
+
+}
+
+
+
+
+
+
+
+/* ここまでヘッダー */
+
+
+
+
+
+.slider{
+  width: 100%;
+  padding-top: 127px;
+  vertical-align: top;
+}
+
+.slider img{
+  width: 100%;
+  vertical-align: top;
+}
+
+
+
+/* ここまでトップイメージ */
+
+
+
+
+.sections{
+  margin-top: 70px;
+  border-top: solid #F1EBF2 4px;
+}
+
+.sections .info{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+
+.sections h1{
+  font-weight: lighter;
+  font-size: 40px;
+  color:#555555 ;
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+
+.index{
+  display: inline-block;
+  width: 270px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+
+.index .indexline{
+  display: inline-block;
+  width: 15%;
+  height: 5px;
+  border-top: 1px solid skyblue;
+}
+
+.index .indexcontent{
+  /* display: inline-block; */
+  width: 30%;
+  height: 10px;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #404040;
+  padding: 0 15px;
+
+}
+
+
+
+
+/* ここまでセクションのトップの内容（各セクション統合） */
+
+
+
+
+.sections .serviceinfo1{
+  font-weight: bold;
+  font-size: 25px;
+  color:#555555 ;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.sections .serviceinfo1 p{
+  margin: 0;
+}
+
+.sections ul{
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+} 
+
+.sections ul li{
+  text-align: center;
+}
+
+.sections ul li p {
+  width: 255px;
+  line-height: 25px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-weight: bold;
+  color:#555555 ;
+  font-size: 14px;
+
+}
+
+.sections ul li .circle1 {
+  text-align: center;
+  background: #FA9B48;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.sections ul li .circleindex1 {
+  text-align: center;
+  width: 90px;
+  height: 70px;
+  line-height: 110px;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+.sections ul li .circleindex2 {
+  line-height: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+.sections ul li .circle2 {
+  /* text-align: center; */
+  background:#CCD91C;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  line-height: 70px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
+
+
+.sections ul li .circle3 {
+  /* text-align: center; */
+  background: #185C81;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  line-height: 70px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+
+
+
+/* ここまでサービスの内容 */
+
+
+
+
+.ulplatforms{
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px;
+  padding-top: 10px;
+
+}
+
+
+
+.platforminfo1{
+  font-weight: bold;
+  font-size: 25px;
+  color:#555555 ;
+  margin-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+.platforminfo1 p{
+  margin: 0;
+}
+
+
+.platformimg1{
+ text-align: center;
+ width: 300px;
+ overflow:		hidden;
+ margin: 0 auto;
+ position:		relative;
+}
+
+.platformimg1 img{
+  width: 90%;
+  margin: 20px auto 40px;
+
+}
+
+.platformimg1 .btn{
+  display: block;
+  background-color: none;
+  color: #555555;
+  width: 100px;
+  line-height: 30px;
+  margin: 27px auto 20px;
+  text-decoration: none;
+  border: solid #555555 1px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.platformimg1:hover .mask .btn:hover{
+  opacity: 0.9;
+  background:#169FFA;
+  color: white;
+  border: none;
+  -webkit-transition:	all 0.7s ease;
+	transition:		all 0.7s ease;
+}
+
+.platformimg1 .caption {
+  font-size:		100%;
+  font-weight: bold;
+	text-align: 		center;
+	padding-top:		80px;
+	color:			#555555;
+}
+
+.platformimg1 .caption p {
+  font-size:		100%;
+  font-weight: bold;
+	text-align: 		center;
+  padding: 0px;
+  margin: 0px 10px 10px 10px;
+	color:			#555555;
+}
+
+.platformimg1 .caption .title {
+  font-size:		180%;
+  font-weight: bold;
+	text-align: 		center;
+	padding: 0px;
+	color:			#555555;
+}
+.platformimg1 .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0;
+  left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(255,255,255,0.73);	/* マスクは半透明 */
+	-webkit-transition:	all 0.7s ease;
+	transition:		all 0.7s ease;
+}
+.platformimg1:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+}
+
+
+
+.platforminfo2 p{
+  margin: 0;
+}
+
+
+.platformimg2{
+  text-align: center;
+  width: 300px;
+  overflow:		hidden;
+  margin:	0 auto;
+  position:	relative;
+}
+
+.platformimg2 img{
+  width: 90%;
+  margin: 20px auto 40px;
+
+}
+
+.platformimg2 .btn{
+  display: block;
+  background-color: none;
+  color: #555555;
+  width: 100px;
+  line-height: 30px;
+  margin: 25px auto 20px;
+  text-decoration: none;
+  border: solid #555555 1px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.platformimg2:hover .mask .btn{
+  opacity: 0.9;
+  background:none;
+  color: #555555;
+}
+
+.platformimg2:hover .mask .btn:hover{
+  opacity: 0.9;
+  background:#169FFA;
+  color: white;
+  border: none;
+  -webkit-transition:	all 0.7s ease;
+	transition:		all 0.7s ease;
+}
+
+.platformimg2 .caption {
+  font-size:		100%;
+  font-weight: bold;
+	text-align: 		center;
+	padding-top:		80px;
+	color:			#555555;
+}
+
+.platformimg2 .caption p {
+  font-size:		100%;
+  font-weight: bold;
+	text-align: 		center;
+  padding: 0px;
+  margin: 0px 10px 10px 10px;
+	color:			#555555;
+}
+
+.platformimg2 .caption .title {
+  font-size:		160%;
+  font-weight: bold;
+	text-align: 		center;
+	padding: 0px;
+	color:			#555555;
+}
+.platformimg2 .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;	/*絶対位置指定*/
+	top:			0; 
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(255,255,255,0.73);	/* マスクは半透明 */
+	-webkit-transition:	all 0.7s ease;
+	transition:		all 0.7s ease;
+}
+.platformimg2:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+}
+
+
+
+
+
+/* ここまでプラットフォームの内容 */
+
+
+.newsul{
+  list-style: none;
+  /* background-color: blueviolet; */
+}
+
+ .newsul li .newsbox{
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border: solid 1px silver;
+ }
+
+ .newsul li .newsbox:hover {
+  border: solid 1px #169FFA;
+ }
+
+ .newsul li .newsbox img{
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  vertical-align: bottom;
+
+}
+
+.newsul li a {
+  text-decoration: none;
+}
+
+.newsinfo {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.newsinfo h1{
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+  padding: 10px 10px 0px 10px;
+}
+
+.newsinfo .newsinfop{
+  text-align: left;
+  font-size: 13px;
+  /* width: 100%; */
+  font-weight: normal;
+  line-height: 25px;
+  padding: 9px 10px 0px 10px;
+  margin: 0;
+}
+
+
+
+/* ここまでニュースの内容 */
+
+
+
+.mediaimg{
+  width: 80%;
+  text-align: center;
+  /* display: flex; */
+  margin-top: 40px;
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.mediaimg li{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mediaimg img{
+  height:70px;
+  margin:10px 15px;
+}
+
+.mediaimg img:hover{
+  opacity: 0.6;
+}
+
+
+
+/* ここまでメディアの内容 */
+
+
+
+.contact1{
+  margin-bottom: 60px;
+}
+
+
+.contact1info {
+  text-align: center;
+  width: 300px;
+  height: 120px;
+  border: solid 1px silver;
+  color: #555555;
+  margin: 0 auto;
+}
+
+.contact1info h1 {
+  text-align: center;
+  width: 167px;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #555555;
+  margin: 14px auto 8px;
+}
+
+.contact1info img {
+  text-align: center;
+  width: 245px;
+  margin: 0 auto;
+}
+
+
+.contact1info .btn{
+  display: block;
+  background-color: none;
+  color: #555555;
+  width: 90px;
+  line-height: 25px;
+  margin: 0px auto 0px;
+  text-decoration: none;
+  border: solid silver 1px;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.contact1info .btn:hover{
+  opacity: 0.9;
+  background:#169FFA;
+  color: white;
+  border: none;
+  -webkit-transition:	all 0.7s ease;
+	transition:		all 0.7s ease;
+}
+
+
+.contact2info {
+  text-align: center;
+  width: 300px;
+  height: 120px;
+  border: solid 1px silver;
+  color: #555555;
+  margin: 0 auto;
+}
+
+.contact2 .line1{
+  text-align: center;
+  width: 167px;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #555555;
+  margin: 15px auto 0px;
+}
+.contact2 .line2{
+  text-align: center;
+  width: 185px;
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #555555;
+  margin: 0 auto 7px;
+}
+
+.contact2info img {
+  text-align: center;
+  width: 245px;
+  margin: 0 auto;
+}
+
+
+.contact2info .btn{
+  display: block;
+  background-color: none;
+  color: #555555;
+  width: 90px;
+  line-height: 25px;
+  margin: 0px auto 0px;
+  text-decoration: none;
+  border: solid silver 1px;
+  font-size: 10px;
+  font-weight: normal;
+}
+
+.contact2info .btn:hover{
+  opacity: 0.9;
+  background:#169FFA;
+  color: white;
+  border: none;
+  -webkit-transition:	all 0.7s ease;
+	transition:		all 0.7s ease;
+}
+
+
+
+
+/* ここまでお問い合わせの内容 */
+
+
+
+
+table{
+  border-collapse: collapse;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  font-size: 12px;
+}
+
+tr td{
+  border: solid 1px #AFC9E0 ;
+  opacity: 54%;
+  text-align: center;
+  padding: 22px 0;
+}
+
+tr td:nth-child(1){
+  width: 160px;
+  background: #DFEAF5;
+}
+
+tr td:nth-child(2){
+  width: 430px;
+}
+
+tr td p{
+  margin: 5px 0;
+}
+
+footer{
+  text-align: center;
+  padding: 10px 0;
+  background:#777777;
+  color: white;
+  font-size: 12px;
+  border-top: solid 3px #F1EBF2;
+}
+
+
+
+
+/* ここまで会社概要とフッターの内容／モバイル版の内容 */
+/* ここ以下はiPad版の内容 */
+
+
+
+
+
+@media screen and (max-width: 1023px) and (min-width: 640px){
+
+  header{
+    text-align: left;
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    /* display: inline-flex; */
+  }
+
+  header .headerul{
+    text-align: right;
+    margin-left: 90px;
+  }
+
+  .headerindex{
+    margin: 7px auto 0px auto;
+    width: 410px;
+  }
+
+  header a img{
+    padding-left: 10px;
+  }
+
+
+
+  .slider{
+    width: 100%;
+    padding-top: 59px;
+    vertical-align: top;
+  }
+  
+  .slider img{
+    width: 100%;
+    vertical-align: top;
+  }
+
+
+  /* ここまでiPad版のheaderとトップ画*/  
+
+
+
+
+.sections .serviceinfo1{
+  font-weight: bold;
+  font-size: 25px;
+  color:#555555 ;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.sections .serviceinfo1 p{
+  margin: 0;
+}
+
+.sections ul{
+  text-align: center;
+  list-style: none;
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0;
+} 
+
+.sections ul li p {
+  width: 200px;
+
+}
+
+
+
+  /* ここまでiPad版の事業内容*/  
+
+
+
+
+  .ulplatforms{
+    display: flex;
+    justify-content: space-around;
+
+
+  
+  }
+
+
+
+  /* ここまでiPad版のプラットフォーム*/  
+
+
+.newsul{
+  text-align: center;
+  list-style: none;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+
+
+
+  /* ここまでiPad版のnews*/  
+
+
+
+
+  .sections > .mediaimg{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+
+
+  /* ここまでiPad版のメディア*/  
+
+
+
+  .contact1{
+    margin-top: 30px;
+  }
+
+  .contact2{
+    margin-top: 30px;
+  }
+
+
+
+  /* ここまでiPad版のお問い合わせ*/  
+  /* ここまでiPad版のすべての内容 下の｝は消さない*/  
+}
+
+/* ここ以下はWeb版の内容 */
+
+
+
+@media (min-width: 1024px){
+
+  header{
+    text-align: left;
+    display: flex;
+    padding: 15px 0px 15px 0px;
+    /* display: inline-flex; */
+  }
+
+  header .headerul{
+    text-align: right;
+    margin-left: 170px;
+  }
+
+
+
+  header ul li a{
+    font-size: 14px;
+  }
+
+
+  .headerindex{
+    margin: 7px auto 0px auto;
+    width: 410px;
+  }
+
+  header a img{
+    padding-left: 100px;
+  }
+
+
+
+  .slider{
+    width: 100%;
+    padding-top: 59px;
+    vertical-align: top;
+  }
+  
+  .slider img{
+    width: 100%;
+    vertical-align: top;
+  }
+  
+
+/* ここまでweb版のheaderとトップ画*/  
+
+
+
+
+.sections .serviceinfo1{
+  font-weight: bold;
+  font-size: 45px;
+  color:#555555 ;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.sections .serviceinfo1 p{
+  margin: 0;
+}
+
+.sections ul{
+  text-align: center;
+  list-style: none;
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0;
+} 
+
+.sections ul li p {
+  width: 230px;
+  font-size: 16px;
+
+}
+
+
+
+
+  /* ここまでweb版の事業内容*/  
+
+
+
+
+  .ulplatforms{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .platformimg1{
+    width: 450px;
+  }
+  
+  .platformimg1 .btn{
+    width: 150px;
+    line-height: 45px;
+    margin: 35px auto 20px;
+    font-size: 13px;
+  }
+  
+  .platformimg1 .caption {
+    font-size:		16px;
+    padding-top:		80px;
+  }
+  
+  .platformimg1 .caption p {
+    font-size:		18px;
+    padding: 0px;
+    margin: 15px 10px 5px 10px;
+  }
+
+
+  .platformimg2{
+    width: 450px;
+  }
+  
+  .platformimg2 .btn{
+    width: 150px;
+    line-height: 45px;
+    margin: 35px auto 20px;
+    font-size: 13px;
+  }
+  
+  .platformimg2 .caption {
+    font-size:		16px;
+    padding-top:		80px;
+  }
+  
+  .platformimg2 .caption p {
+    font-size:		18px;
+    padding: 0px;
+    margin: 15px 10px 5px 10px;
+  }
+
+
+
+  /* ここまでweb版のプラットフォーム*/  
+
+.newsul{
+  text-align: center;
+  list-style: none;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 0;
+}
+ 
+.newsul li .newsbox{
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border: solid 1px silver;
+ }
+
+ .newsul li .newsbox img{
+  width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  vertical-align: bottom;
+
+}
+
+
+ .newsinfo h1{
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 15px 10px 0px 10px;
+}
+
+.newsinfo .newsinfop{
+  text-align: left;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 25px;
+  padding: 9px 10px 0px 10px;
+  margin: 0;
+}
+
+
+  /* ここまでweb版のnews*/  
+
+
+
+
+  /* ここまでweb版のメディア*/  
+
+
+
+  .contact1{
+    margin-top: 30px;
+  }
+
+  .contact2{
+    margin-top: 30px;
+  }
+  
+  
+  .contact1info {
+    text-align: center;
+    width: 450px;
+    height: 185px;
+  }
+  
+  .contact1info h1 {
+    width: 230px;
+    line-height: 25px;
+    font-size: 16px;
+    margin: 25px auto 16px;
+  }
+  
+  .contact1info img {
+    width: 375px;
+  }
+  
+  .contact1info .btn{
+    width: 142px;
+    height: 40px;
+    line-height: 40px;
+    margin: 8px auto 0px;
+    font-size: 13px;
+  }
+
+
+
+  .contact2info {
+    text-align: center;
+    width: 450px;
+    height: 185px;
+  }
+  
+  .contact2 .line1{
+    text-align: center;
+    width: 230px;
+    line-height: 25px;
+    font-size: 16px;
+    margin: 25px auto 0px;
+  }
+  .contact2 .line2{
+    text-align: center;
+    width: 240px;
+    line-height: 25px;
+    font-size: 16px;
+    margin: 0 auto 16px;
+  }
+  
+  .contact2info img {
+    width: 375px;
+  }
+  
+  .contact2info .btn{
+    width: 142px;
+    height: 40px;
+    line-height: 40px;
+    margin: 8px auto 0px;
+    font-size: 13px;
+  }
+
+  .sections .contactul{
+    width: 945px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  /* ここまでweb版のすべての内容 下の｝は消さない*/  
+}
